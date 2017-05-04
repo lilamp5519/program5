@@ -25,7 +25,7 @@ import java.awt.Point;
 
 public abstract class GameCharacter extends AnimatedDrawable {
 
-    //  These variables are available to subclasses.
+   
     protected List<Point> animationPath;
     protected AddIterator<Point> animationIterator;
     protected boolean isVisible;

@@ -24,10 +24,11 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <Component id="startPauseButton" min="-2" pref="88" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+              <Component id="startPauseButton" min="-2" pref="271" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="selectLabel" min="-2" pref="376" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="205" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
           <Component id="stagePanel" max="32767" attributes="0"/>
       </Group>
@@ -36,7 +37,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="startPauseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="startPauseButton" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="selectLabel" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>

@@ -37,7 +37,7 @@ public class StageFrame extends javax.swing.JFrame {
     public StageFrame() {
         initComponents();
         characters = new List<>();
-        characters.add(new csc220.program5.sample.RoundHead(10, 30, 50, 1000));
+        characters.add(new csc220.program5.foremaa2020.Character( 50, 75, 30, 1000));
         camera = new Camera();
         chosenCharacter = null;
         gameOver = false;
@@ -106,10 +106,11 @@ public class StageFrame extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(startPauseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(156, 156, 156)
+                .addComponent(startPauseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 271, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(selectLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 205, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addComponent(stagePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
